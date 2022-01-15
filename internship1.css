@@ -1,0 +1,218 @@
+.about
+{
+  background-color: red;
+  font-size:50px;
+
+  margin-top: 20px;
+}
+
+h2{
+  background-color: red;
+  font-size:30px;
+
+  margin-top: 20px;
+
+}
+body
+{
+  font-family: 'Luxurious Roman', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+
+}
+p{
+  font-family: 'Noticia Text', serif;
+
+}
+
+.h
+{
+  border-style: dotted none none;
+  border-color:red;
+  border-width: 2px;
+
+
+}
+.hh
+{
+  border-style: dotted none none;
+  border-color:red;
+  border-width: 2px;
+  width:97%;
+margin-left:20px;
+
+}
+hr{
+  border-style:solid;
+
+  border-color: red;
+  margin-left:20px;
+  margin-right:20px;
+
+}
+.image-container
+{
+  display :flex;
+
+}
+.image-container img{
+   margin-left:5px;
+   margin-left:5px;
+}
+#link
+{
+  color: black;
+}
+#brand
+{
+  color: red;
+  font-style: italic;
+  font-variant-caps: titling-case;
+  font-weight: bolder;
+}
+footer {  
+ background: grey;  
+  color:black;  
+  margin-top:100px;  
+}  
+footer a {  
+  color: black;  
+  font-size: 20px;  
+  transition-duration: 0.2s;  
+}  
+footer a:hover {  
+  color: blue;  
+  text-decoration: none;  
+}  
+.copy {  
+  font-size: 12px;  
+  padding: 10px;  
+  border-top: 1px solid #FFFFFF;  
+}  
+.footer-middle {  
+  padding-top: 2em;  
+  color: white;  
+}  
+ul.social-network {  
+  list-style: none;  
+  display: inline;  
+  margin-left: 0 !important;  
+  padding: 0;  
+}  
+ul.social-network li {  
+  display: inline;  
+  margin: 0 5px;  
+}  
+  
+.social-network a.icoFacebook:hover {  
+  background-color: #3B5998;  
+}  
+.social-network a.icoLinkedin:hover {  
+  background-color: #007bb7;  
+}  
+.social-network a.icoFacebook:hover i  
+{  
+  color: #fff;  
+}  
+.social-network a.icoLinkedin:hover i {  
+  color: #fff;  
+}  
+.social-network a.socialIcon:hover {  
+  color: #44BCDD;  
+}  
+.socialHoverClass {  
+  color: #44BCDD;  
+}  
+.social-circle li a {  
+  display: inline-block;  
+  position: relative;  
+  margin: 0 auto 0 auto;  
+  -moz-border-radius: 50%;  
+  -webkit-border-radius: 50%;  
+  border-radius: 50%;  
+  text-align: center;  
+  width: 30px;  
+  height: 30px;  
+  font-size: 15px;  
+}  
+.social-circle li i {  
+  margin: 0;  
+  line-height: 30px;  
+  text-align: center;  
+}  
+.social-circle li a:hover i  
+{  
+  -moz-transform: rotate(360deg);  
+  -webkit-transform: rotate(360deg);  
+  -ms--transform: rotate(360deg);  
+  transform: rotate(360deg);  
+  -webkit-transition: all 0.2s;  
+  -moz-transition: all 0.2s;  
+  -o-transition: all 0.2s;  
+  -ms-transition: all 0.2s;  
+  transition: all 0.2s;  
+}  
+.triggeredHover {  
+  -moz-transform: rotate(360deg);  
+  -webkit-transform: rotate(360deg);  
+  -ms--transform: rotate(360deg);  
+  transform: rotate(360deg);  
+  -webkit-transition: all 0.2s;  
+  -moz-transition: all 0.2s;  
+  -o-transition: all 0.2s;  
+  -ms-transition: all 0.2s;  
+  transition: all 0.2s;  
+}  
+.social-circle i {  
+  color: #595959;  
+  -webkit-transition: all 0.8s;  
+  -moz-transition: all 0.8s;  
+  -o-transition: all 0.8s;  
+  -ms-transition: all 0.8s;  
+  transition: all 0.8s;  
+}  
+.social-network a {  
+  background-color: #F9F9F9;  
+}  
+..social-network a:hover {  
+background: #ff304d;  
+}  
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 30px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+.butt1
+{
+   background: ;
+   box-shadow: 0 0 5px #00ffff, 0 0 25px #00ffff ,0 0 50px #00ffff ,0 0 20px #00ffff;
+}
+.butt2
+{
+   background:lightblue ;
+   box-shadow: 0 0 5px lightblue, 0 0 25px lightblue ,0 0 50px lightblue,0 0 20px lightblue;
+}
+.butt3
+{
+   background:darkblue ;
+   box-shadow: 0 0 5px darkblue , 0 0 25px darkblue  ,0 0 50px darkblue ,0 0 20px darkblue ;
+}
+.butt4
+{
+   background:red ;
+   box-shadow: 0 0 5px red , 0 0 25px darkblue  ,0 0 50px darkblue ,0 0 20px darkblue ;
+}
